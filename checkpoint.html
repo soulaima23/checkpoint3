@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>checkpoint3</title>
+</head>
+<body>
+    <div class="tout">
+<!-- header -->
+    <div class="header">
+            <div class="logo"><img src="./Capture.PNG" alt="Capture.PNG" width="110px" height="60px"></div>
+            <div class="title">Shopping parfums Total : <span id="total"> 0</span> <span>$</span>  </div>
+        </div>
+<!-- end header -->
+<!-- 1er parfun -->
+
+    <div  class="part" id="part1">
+            <i class="fas fa-skull" onclick="remove1()"></i>
+            <div><i class="fas fa-heart" id="heart" onclick="heart()"></i></div>
+        <img src="./Capture1.PNG" alt="Capture1.PNG" class="image">
+<span class="nom-produit">Narciso Rodriguez  </span>
+<div class="btns">
+    <span class="btn" onclick="inc1()">+</span>
+    <span class="btn" id="product-qtn1">0</span>
+    <span class="btn"  onclick="dec1()">-</span>
+  </div>
+  <p class="prix-produit"><span id="prixprod1">0</span> <span>$</span></p>
+</div>
+
+
+<div  class="part" id="part2">
+    <i class="fas fa-skull" onclick="remove2()"></i>
+    <div><i class="fas fa-heart" id="heart2" onclick="heart2()"></i></div>
+<img src="./Capture3.PNG" alt="Capture3.PNG" class="image">
+<span class="nom-produit">Narciso Rodriguez  </span>
+<div class="btns">
+<span class="btn" onclick="inc2()">+</span>
+<span class="btn" id="product-qtn2">0</span>
+<span class="btn"  onclick="dec2()">-</span>
+</div>
+<p class="prix-produit"><span id="prixprod2">0</span> <span>$</span></p>
+</div>
+
+
+
+<!-- end 1er parfun -->
+  <div  class="part" id="part3">
+    <i class="fas fa-skull" onclick="remove3()"></i>
+<i class="fas fa-heart" id="heart3" onclick="heart3()"></i>
+<div class="image"><img src="./Capture2.PNG" alt="Capture2.PNG" ></div>
+<span class="nom-produit"> Musc Noir  </span>
+<div class="btns">
+<span class="btn" onclick="inc3()">+</span>
+<span class="btn" id="product-qtn3">0</span>
+<span class="btn"  onclick="dec3()">-</span>
+</div>
+<p class="prix-produit"><span id="prixprod3">0</span> <span>$</span></p>
+</div>
+
+
+
+<div  class="part" id="part4">
+    <i class="fas fa-skull" onclick="remove4()"></i>
+<i class="fas fa-heart" id="heart4" onclick="heart4()"></i>
+<div class="image"> <img src="./Capture4.PNG" alt="Capture4.PNG" ></div>
+<span class="nom-produit">Narciso Rodriguez  </span>
+<div class="btns">
+<span class="btn" onclick="in4()">+</span>
+<span class="btn" id="product-qtn4">0</span>
+<span class="btn"  onclick="dec4()">-</span>
+</div>
+<p class="prix-produit"><span id="prixprod4">0</span> <span>$</span></p>
+</div> 
+</div>
+</div>
+</div>
+</body>
+<script src="javascript.js"></script>
+
+</html>
